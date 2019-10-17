@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MAIN PAGE</title>
+</head>
+<body>
+	<% for(var id=1; id < 10; id++ ) { %>
+	<p><a href="/bbs/view?id=<%=id%>&page=1"><%=id%>번 게시물</a></p>
+	<% } %>
+	<p>===</p>
+	<p><a href="/bbs/write">글작성</a></p>
+	<p></p>
+	<p></p>
+</body>
+</html>
